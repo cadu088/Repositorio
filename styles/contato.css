@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(35, 35, 35);
+    background: linear-gradient(45deg, #440A67, #93329E, #B4AEE8, #FFE3FE);
+    background-size: 300% 300%;
+    animation: colorir 10s ease infinite;
+}
+
+@keyframes colorir {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#navbar {
+    position: top;
+}
+
+#linksHtml {
+    background-color: rgba(0, 0, 0, 0.571);
+    display: flex;
+    border-radius: 30px;
+    max-height: 50px;
+}
+
+#simbolo {
+    background-color: rgb(0, 0, 0);
+    border-radius: 90px;
+    display: block;
+    width: auto;
+    min-width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+#paginaAtual {
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 9px;
+    margin-right: 11px;
+    transition: .4s;
+}
+
+#paginaAtual:hover {
+    color: rgb(226, 43, 43);
+}
+
+#linkar {
+    position: relative;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#iniciar {
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+    text-align: end;
+}
+
+#linguagens {
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+    text-align: end;
+}
+
+#projetosExtensao {
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+    text-align: end;
+}
+
+#iniciar:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    color: #ad15ff;
+}
+
+#linguagens:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    color: #ad15ff;
+}
+
+#projetosExtensao:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    color: #ad15ff;
+}
+
+#emoji {
+    position: relative;
+    text-align: end;
+    font-size: 15px;
+    margin-right: 15px;
+    width: auto;
+    min-width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+#conhecaInicial {
+    margin-top: 50px;
+    display: flex;
+    height: 600px;
+    margin-left: -10px;
+    margin-right: -8px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+#textoInicial {
+    position: center;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 700px;
+    /* border-radius: 540px; */
+    box-shadow: 0 0 3vw rgba(255, 255, 255, 0.33);
+    display: flex;
+}
+
+#titulo_textoInicial {
+    color: #ad15ff;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+#texto_textoInicial {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 40px;
+    border: 2px, white;
+    font-size: 10px;
+}
+
+#corPreto {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 670px;
+    height: auto;
+    margin-top: 15px;
+    box-shadow: 0 0 3vw rgba(0, 0, 0, 0.598);
+    border-top-right-radius: 90px;
+}
+
+#tituloContato {
+    font-weight: 600;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-size: 40px;
+    border-bottom: 4px solid #ad15ff;
+}
+
+#contatos {
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+img {
+    width: 80px;
+    margin-right: 60px;
+}
+
+#TextoContatos {
+    color: rgba(0, 0, 0, 0.789);
+    margin-bottom: 100px;
+}
+
+#TextoContatos2 {
+    color: rgb(0, 0, 0);
+}
+
+#cats {
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}
