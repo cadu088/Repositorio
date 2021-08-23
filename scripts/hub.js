@@ -5,16 +5,16 @@ function relogio() {
     const hora = new Date();
     const atual = hora.getHours();
     if (atual >= 12 && atual < 18) {
-        texto.innerText = 'Boa tarde! Seja bem-vindo(a) ao meu portfolio.'
+        texto.innerText = 'Boa tarde!'
         emoji.innerText = '🎑'
     } else if (atual >= 18) {
-        texto.innerText = 'Boa noite! Seja bem-vindo(a) ao meu portfolio.'
+        texto.innerText = 'Boa noite!'
         emoji.innerText = '​🌙'
     } else if (atual >= 0 && atual < 5) {
-        texto.innerText = 'Boa noite!  Seja bem-vindo(a) ao meu portfolio.'
+        texto.innerText = 'Boa madrugada!'
         emoji.innerText = '🌆'
     } else {
-        texto.innerText = 'Bom dia!  Seja bem-vindo(a) ao meu portfolio.'
+        texto.innerText = 'Bom dia!'
         emoji.innerText = '​☀'
     }
     var data = new Date();

@@ -154,7 +154,6 @@ a:hover {
     margin-top: 10px;
     margin-left: -10px;
     margin-right: -8px;
-    margin-bottom: 70px;
     width: auto;
     display: flex;
 }
@@ -208,8 +207,58 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    margin-top: 360px;
+    margin-top: 40px;
     color: white;
     font-family: Arial, sans-serif;
     font-weight: 600;
+}
+
+#imagem2 {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+img {
+    width: 500px;
+}
+
+#textoDescontraido {
+    display: block;
+    background-color: black;
+    margin-top: -520px;
+    width: 700px;
+    height: 557px;
+    margin-left: auto;
+    border-top-left-radius: 90px;
+    /* border-top-right-radius: 90px; */
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.673);
+}
+
+#textoDescontraido_titulo {
+    border-bottom: 4px solid #ad15ff;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#textoDescontraido_text {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+#ass {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    color: white;
+    margin-top: 130px;
+    font-size: 20px;
 }

@@ -84,7 +84,6 @@ body {
 }
 
 #projetosExtensao {
-    margin-right: 50px;
     font-family: Arial, sans-serif;
     color: white;
     font-size: 18px;
@@ -139,12 +138,14 @@ body {
 
 #textoInicial {
     position: center;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-right: auto;
     margin-top: 0px;
     background-color: rgb(255, 255, 255);
+    border-top-right-radius: 90px;
     height: 600px;
-    width: 700px;
+    max-width: 700px;
+    width: auto;
     /* border-radius: 540px; */
     box-shadow: 0 0 3vw rgba(255, 255, 255, 0.33);
     display: flex;
@@ -159,6 +160,7 @@ body {
 }
 
 #texto_textoInicial {
+    display: flex;
     text-align: justify;
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
@@ -170,19 +172,20 @@ body {
 }
 
 #corPreto {
-    display: block;
+    display: flexbox;
     background-color: rgb(255, 255, 255);
     position: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 670px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
     height: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     box-shadow: 0 0 3vw rgba(0, 0, 0, 0.598);
     border-top-right-radius: 90px;
 }
 
 #tituloContato {
+    display: flex;
     font-weight: 600;
     color: #000000;
     font-family: Arial, sans-serif;
@@ -204,24 +207,32 @@ body {
 }
 
 img {
-    width: 80px;
-    margin-right: 60px;
+    width: 60px;
+    margin-right: 40px;
 }
 
 #TextoContatos {
     color: rgba(0, 0, 0, 0.789);
-    margin-bottom: 100px;
-}
-
-#TextoContatos2 {
-    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 #cats {
+    display: flex;
     margin-top: auto;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
     height: 300px;
+}
+
+#simbols {
+    display: flexbox;
+    margin-top: 38%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#email {
+    width: 0px;
 }
