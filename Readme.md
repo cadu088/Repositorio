@@ -1,1 +1,1 @@
-Portfolio ainda em construção.
+Ainda em construção.
