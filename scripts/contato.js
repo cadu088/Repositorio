@@ -11,7 +11,7 @@ function relogio() {
     } else if (atual >= 0 && atual < 5) {
         emoji.innerText = '🌆'
     } else {
-        emoji.innerText = '​☀'
+        emoji.innerText = '​☀️'
     }
     setTimeout("relogio()", 1000);
 }

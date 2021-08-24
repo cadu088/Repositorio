@@ -15,7 +15,7 @@ function relogio() {
         emoji.innerText = '🌆'
     } else {
         texto.innerText = 'Bom dia!'
-        emoji.innerText = '​☀'
+        emoji.innerText = '​☀️'
     }
     var data = new Date();
     var dia = data.getDate();
