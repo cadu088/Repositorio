@@ -2,7 +2,7 @@ body {
     background-color: rgb(35, 35, 35);
     background: linear-gradient(45deg, #440A67, #93329E, #B4AEE8, #FFE3FE);
     background-size: 300% 300%;
-    animation: colorir 10s ease infinite;
+    animation: colorir 20s ease infinite;
 }
 
 @keyframes colorir {
@@ -24,13 +24,13 @@ body {
 #linksHtml {
     background-color: rgba(0, 0, 0, 0.571);
     display: flex;
-    border-radius: 30px;
+    border-radius: 5px;
     max-height: 50px;
 }
 
 #simbolo {
-    background-color: rgb(0, 0, 0);
-    border-radius: 90px;
+    background-color: rgba(0, 0, 0, 0.523);
+    border-radius: 5px;
     display: block;
     width: auto;
     min-width: 30px;
@@ -42,10 +42,10 @@ body {
 
 #paginaAtual {
     font-family: Arial, sans-serif;
-    margin-top: 5px;
-    margin-bottom: 8px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     margin-left: 9px;
     margin-right: 11px;
@@ -82,7 +82,7 @@ body {
 a {
     font-family: Arial, sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     transition: .7s;
     text-align: end;
@@ -91,7 +91,7 @@ a {
 a:hover {
     padding-right: 20px;
     padding-left: 20px;
-    border-bottom: 4px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
     color: #ad15ff;
 }
 
@@ -99,7 +99,7 @@ a:hover {
     position: relative;
     text-align: end;
     font-size: 15px;
-    margin-right: 15px;
+    margin-right: 6px;
     width: auto;
     min-width: 30px;
     height: 30px;
@@ -115,7 +115,8 @@ a:hover {
     margin-left: -10px;
     margin-right: -8px;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.279);
+    box-shadow: 0 0 3vw rgba(0, 0, 0, 0.33);
 }
 
 #textoInicial {
@@ -125,7 +126,7 @@ a:hover {
     background-color: rgba(64, 64, 64, 0.564);
     height: 260px;
     width: 600px;
-    border-radius: 90px;
+    border-radius: 5px;
     box-shadow: 0 0 2vw rgba(64, 64, 64, 0.33);
     display: flex;
 }
@@ -149,20 +150,21 @@ a:hover {
 }
 
 #umPouco {
-    background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.204);
     height: 680px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: -10px;
     margin-right: -8px;
     width: auto;
     display: flex;
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.673);
 }
 
 #dataText {
     align-items: center;
     display: flex;
     background-color: rgb(255, 255, 255);
-    border-radius: 90px;
+    border-radius: 5px;
     width: 90vw;
     height: 40px;
     margin-top: 15px;
@@ -201,8 +203,8 @@ a:hover {
     align-items: center;
     display: flex;
     background-color: rgba(0, 0, 0, 0.571);
-    border-radius: 90px;
-    width: 90vw;
+    border-radius: 5px;
+    width: 98vw;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -214,30 +216,40 @@ a:hover {
 }
 
 #imagem2 {
-    width: 500px;
-    margin-left: 50px;
-    margin-top: 200px;
+    width: 600px;
+    margin-left: 185px;
+    margin-top: 185px;
 }
 
 img {
-    width: 500px;
+    width: 400px;
 }
 
-#textoDescontraido {
-    display: block;
-    background-color: black;
+#bordaTransparente {
+    background-color: rgb(17, 17, 17);
     margin-top: -520px;
     width: 700px;
     height: 557px;
     margin-left: auto;
     border-top-left-radius: 90px;
-    /* border-top-right-radius: 90px; */
+    border-width: 10px;
     box-shadow: 0 0 2vw rgba(0, 0, 0, 0.673);
+}
+
+#textoDescontraido {
+    display: block;
+    background-color: rgb(17, 17, 17);
+    margin-top: -520px;
+    width: 700px;
+    height: 557px;
+    margin-left: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #textoDescontraido_titulo {
     border-bottom: 4px solid #ad15ff;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: Arial, sans-serif;
     font-weight: 600;
@@ -251,14 +263,14 @@ img {
     margin-right: 20px;
     font-family: Arial, sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
 #ass {
     font-family: Arial, sans-serif;
     margin-left: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 130px;
     font-size: 20px;
 }

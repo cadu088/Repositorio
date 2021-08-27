@@ -1,6 +1,6 @@
 body {
     background-color: rgb(35, 35, 35);
-    background: linear-gradient(45deg, #628395, #262a53, #ffa0a0, #ffe3e3);
+    background: linear-gradient(45deg, #151515, #301B3F, #3C415C, #B4A5A5);
     background-size: 300% 300%;
     animation: colorir 20s ease infinite;
 }
@@ -84,6 +84,7 @@ body {
 }
 
 #projetosExtensao {
+    margin-right: 50px;
     font-family: Arial, sans-serif;
     color: white;
     font-size: 17px;
@@ -99,14 +100,30 @@ body {
     color: #ad15ff;
 }
 
-#linguagens:hover {
+#projetosExtensao:hover {
     padding-right: 20px;
     padding-left: 20px;
     border-bottom: 3px solid rgb(255, 255, 255);
     color: #ad15ff;
 }
 
-#projetosExtensao:hover {
+#contato:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: #ad15ff;
+}
+
+#contato {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .7s;
+    text-align: end;
+}
+
+#iniciar:hover {
     padding-right: 20px;
     padding-left: 20px;
     border-bottom: 3px solid rgb(255, 255, 255);
@@ -126,125 +143,91 @@ body {
     margin-left: 20px;
 }
 
-#conhecaInicial {
+
+/* criação do conteudo  */
+
+#linguagensBar {
     margin-top: 50px;
     display: flex;
-    height: 600px;
+    height: auto;
     margin-left: -10px;
     margin-right: -8px;
+    margin-bottom: 100px;
     width: auto;
     background-color: rgba(255, 255, 255, 0.183);
     box-shadow: 0 0 3vw rgba(0, 0, 0, 0.33);
 }
 
-#textoInicial {
-    position: center;
-    margin-left: 40px;
+#coluna {
+    margin-top: 30px;
+    width: 70vw;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
-    background: linear-gradient(135deg, #628395, #262a53, #ffa0a0, #ffe3e3);
-    background-size: 300% 300%;
-    animation: colorir 20s ease infinite;
-    border-top-right-radius: 90px;
-    height: 600px;
-    max-width: 695px;
-    width: auto;
-    /* border-radius: 540px; */
+}
+
+#titulo_aba {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    border-left: 4px solid rgb(255, 255, 255);
+    color: black;
+    font-weight: 600;
+}
+
+#caixa {
+    font-family: Arial, sans-serif;
+    width: 70vw;
+    height: 35vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.494);
+    background-color: rgba(255, 255, 255, 0.426);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     box-shadow: 0 0 3vw rgba(0, 0, 0, 0.33);
-    display: flex;
+    margin-bottom: 50px;
 }
 
 #titulo_textoInicial {
-    color: #ad15ff;
-    font-family: Arial, sans-serif;
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-right: 40px;
+    background-color: rgb(38, 38, 38);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.494);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 70vw;
+    height: 36px;
+    border-top: 1px solid rgb(38, 38, 38);
+    border-bottom: 1px solid rgb(38, 38, 38);
+    position: relative;
 }
 
-#texto_textoInicial {
-    display: flex;
-    text-align: justify;
-    color: rgb(0, 0, 0);
+#mini_pesquisa {
     font-family: Arial, sans-serif;
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-top: 40px;
-    border: 2px, white;
-    font-size: 10px;
+    background-color: rgb(24, 24, 24);
+    width: 60vw;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 3vw;
+    margin-right: auto;
+    font-size: 17px;
+    margin-top: 3px;
+    position: relative;
 }
 
-#corPreto {
-    display: flexbox;
-    background-color: rgba(255, 255, 255, 0.306);
-    position: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: auto;
-    height: auto;
-    margin-top: 0px;
-    box-shadow: 0 0 10vw rgba(0, 0, 0, 0.598);
-    border-top-right-radius: 90px;
-}
-
-#tituloContato {
-    display: flex;
-    font-weight: 600;
-    color: #000000;
-    font-family: Arial, sans-serif;
-    margin-left: 30px;
-    margin-top: 60px;
-    margin-right: 40px;
-    font-size: 40px;
-    border-bottom: 4px solid #ad15ff;
-}
-
-#contatos {
-    display: block;
-    font-weight: 600;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin-left: 30px;
-    margin-right: 40px;
-    font-size: 12px;
+#html {
+    margin-left: 10px;
+    position: relative;
+    position: absolute;
+    top: -50%;
 }
 
 img {
-    width: 3vw;
-    margin-right: 2vw;
+    width: 15vw;
 }
 
-#TextoContatos {
-    color: rgba(0, 0, 0, 0.789);
-    font-size: 20px;
-}
-
-#cats {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35vw;
-    height: 22vw;
-}
-
-#simbols {
-    display: flexbox;
-    margin-top: 38%;
-    margin-bottom: 10px;
-    margin-left: 30px;
-}
-
-#email {
-    width: 0px;
+#caixa:hover {
+    box-shadow: 0 0 3vw rgba(0, 0, 0, 0.529);
 }
 
 
 /* estilização da brra de rolagem :) */
-
-
-/* degrade para a barra vertical */
 
 ::-webkit-scrollbar {
     width: 5px;
