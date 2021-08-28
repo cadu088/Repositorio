@@ -257,3 +257,16 @@ img {
     background: linear-gradient(to right, #000000 0%, #ad15ff 25%, #ad15ff 50%, #ad15ff 76%, #000000 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
 }
+
+
+/* 
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+    transform: translate3d(-30vw, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0vw, 0, 0);
+} */
