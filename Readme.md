@@ -1,1 +1,1 @@
-Ainda em construção.
+Atenção, esté projeto ainda está em construção.
