@@ -1,3 +1,7 @@
+🚧 Atenção, esté projeto ainda está em construção. 🚧 
+
+
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
@@ -47,4 +51,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 =======
 Atenção, esté projeto ainda está em construção. teste 
->>>>>>> ff8a18d5a6ac55e9359cf47cfd7f9712fb063ce4
+>>>>>>> 
