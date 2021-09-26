@@ -14,7 +14,7 @@
 }
 
 .App-header {
-    background: radial-gradient( circle, #2A0944, #3B185F, #A12568, #FEC260);
+    background: radial-gradient( circle, #2A0944, #3B185F, #A12568, #3B185F);
     filter: blur();
     min-height: 100vh;
     display: flex;
@@ -64,13 +64,13 @@
 
 .go {
     margin-top: 2vmin;
-    height: 6vmin;
-    width: 6vmin;
+    height: 7vmin;
+    width: 7vmin;
     min-width: 30px;
     min-height: 30px;
     font-size: 3vmin;
     background-color: transparent;
-    border-radius: 90vmin;
+    border-radius: 180vmin;
     border-color: #FEC260;
 }
 
@@ -100,4 +100,24 @@ button:focus {
         border-color: transparent;
         opacity: 1px;
     }
+}
+
+.tagNow {
+    height: 4.2vmin;
+    width: 7vmin;
+    border-radius: 90vmin 0vmin 0vmin 90vmin;
+    margin-left: auto;
+    margin-top: 3vmin;
+    font-size: 2vmin;
+    filter: blur();
+}
+
+.tagNowText {
+    margin-top: -0.9vmin;
+    margin-left: -3vmin;
+}
+
+.obs {
+    margin-top: auto;
+    font-size: 2.5vmin;
 }
