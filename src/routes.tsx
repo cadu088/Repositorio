@@ -10,7 +10,7 @@ import Languagens from './pages/languages'
 const Routes = () => {
     return(
         <BrowserRouter>
-                   <Route component = { Home }  path="/" exact />
+            <Route component = { Home }  path="/" exact />
             <Route component = { Hub }  path="/hub" />
             <Route component = { Contacts }  path="/contato" />
             <Route component = { Projects }  path="/projetos" />

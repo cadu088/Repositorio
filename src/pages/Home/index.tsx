@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import './styles.css';
 
-function Home() {
+function Home(this: any) {
   let texto = '';
   let fig = '';
   const hora = new Date();
@@ -20,10 +20,15 @@ function Home() {
     fig = '☀'
     texto = 'Bom dia!'
 }
+const history = useHistory();
 
-// const link = setTimeout("funcao()",3000)
-// const history = useHistory();
-// const handleHub = useCallback(() => history.push('/hub'), [history]);
+
+	const chamarRota = () => {
+		setTimeout(
+			() => {
+				history.push('/hub');
+			}, 1900);
+	};
 
 
   return (
@@ -36,7 +41,7 @@ function Home() {
         <img src='https://media4.giphy.com/media/LQiaQkNlU73xZs8y5l/giphy.gif?cid=ecf05e479v740ahxmf20maqrurreli06c8kwq0skj1sk5fi8&rid=giphy.gif&ct=s' className="App-logo" alt="logo" />
         <h1 className="titulo">{texto}</h1>
         <p className="linha">Acomode-se e vamos juntos nessa viagem!</p>
-        <button type="button" title="Embarcar" className="go" ><Link to="/hub" style={{ textDecoration: 'none', color: '#fff'}} >🚀</Link></button>
+        <button type="button" title="Embarcar" className="go" onClick={chamarRota} >🚀</button>
         <p className="obs">vamos precisar desse foguete =)</p>
       </header>
     </div>
@@ -44,3 +49,4 @@ function Home() {
 }
 
 export default Home;
+
