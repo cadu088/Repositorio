@@ -1,123 +1,131 @@
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .App-logo {
-    height: 35vmin;
-    pointer-events: none;
+  height: 35vmin;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 4s linear;
-    }
+  .App-logo {
+    animation: App-logo-spin infinite 4s linear;
+  }
 }
 
 .App-header {
-    background: radial-gradient( circle, #2A0944, #3B185F, #A12568, #3B185F);
-    filter: blur();
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    background-size: 300vw 300vw;
-    animation: colorir 3s ease infinite;
-    overflow: hidden;
-    background-position: 50% 50%;
+  background: radial-gradient(circle, #2a0944, #3b185f, #a12568, #3b185f);
+  filter: blur();
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-size: 300vw 300vw;
+  animation: colorir 3s ease infinite;
+  overflow: hidden;
+  background-position: 50% 50%;
 }
 
 @keyframes colorir {
-    33.33% {
-        background-position: 100% 50%;
-    }
-    66.66% {
-        background-position: 200% 50%;
-    }
-    100% {
-        background-position: 350% 50%;
-    }
+  33.33% {
+    background-position: 100% 50%;
+  }
+  66.66% {
+    background-position: 200% 50%;
+  }
+  100% {
+    background-position: 350% 50%;
+  }
 }
 
 @keyframes run {
-    0% {}
+  0% {
+  }
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: translateX(-300vmin);
-    }
-    to {
-        transform: translateX(300vmin);
-    }
+  from {
+    transform: translateX(-300vmin);
+  }
+  to {
+    transform: translateX(300vmin);
+  }
 }
 
 .titulo {
-    margin-top: 15vmin;
+  margin-top: 15vmin;
 }
 
 .linha {
-    margin-top: -5vmin;
+  margin-top: -5vmin;
 }
 
 .go {
-    margin-top: 2vmin;
-    height: 7vmin;
-    width: 7vmin;
-    min-width: 30px;
-    min-height: 30px;
-    font-size: 3vmin;
-    background-color: transparent;
-    border-radius: 180vmin;
-    border-color: #FEC260;
+  margin-top: 2vmin;
+  height: 7vmin;
+  width: 7vmin;
+  min-width: 30px;
+  min-height: 30px;
+  font-size: 3vmin;
+  background-color: transparent;
+  border-radius: 180vmin;
+  border-color: #fec260;
 }
 
 button:hover {
-    transform: rotate(315deg);
-    border-color: transparent;
+  transform: rotate(315deg);
+  border-color: transparent;
 }
 
 button:focus {
-    animation: aCima 2s ease;
+  animation: aCima 2s ease;
 }
 
 @keyframes aCima {
-    33.33% {
-        transform: translateY(0vmin);
-        border-color: transparent;
-        opacity: 1;
-    }
-    80% {
-        transform: translateX(40vmin) translateY(-40vmin);
-        border-color: transparent;
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(80vmin) translateY(-80vmin);
-        opacity: 0;
-        border-color: transparent;
-        opacity: 1px;
-    }
+  33.33% {
+    font-size: 3.4vmin;
+    transform: translateY(0vmin);
+    border-color: transparent;
+    opacity: 1;
+    filter: drop-shadow(-7px 13px 0px rgba(0, 0, 0, 0.527));
+  }
+  80% {
+    font-size: 3.2vmin;
+    transform: translateX(40vmin) translateY(-40vmin);
+    border-color: transparent;
+    opacity: 1;
+    filter: brightness(100%);
+    filter: drop-shadow(-14px 13px 0px rgba(0, 0, 0, 0.527));
+  }
+  100% {
+    font-size: 1vmin;
+    transform: translateX(80vmin) translateY(-80vmin);
+    opacity: 0;
+    border-color: transparent;
+    opacity: 1px;
+    filter: brightness(0%);
+  }
 }
 
 .tagNow {
-    height: 4.2vmin;
-    width: 7vmin;
-    border-radius: 90vmin 0vmin 0vmin 90vmin;
-    margin-left: auto;
-    margin-top: 3vmin;
-    font-size: 2vmin;
-    filter: blur();
+  height: 4.2vmin;
+  width: 7vmin;
+  border-radius: 90vmin 0vmin 0vmin 90vmin;
+  margin-left: auto;
+  margin-top: 3vmin;
+  font-size: 2vmin;
+  filter: blur();
 }
 
 .tagNowText {
-    margin-top: -0.9vmin;
-    margin-left: -3vmin;
+  margin-top: -0.9vmin;
+  margin-left: -3vmin;
 }
 
 .obs {
-    margin-top: auto;
-    font-size: 2.5vmin;
+  margin-top: auto;
+  font-size: 2.5vmin;
 }
