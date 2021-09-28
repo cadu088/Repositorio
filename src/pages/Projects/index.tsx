@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from '../../componentes/NavBar';
 
 
 const Projects = () =>{
     return (
-      <div>
+      <><NavBar /><div>
         <h1>Projetos</h1>
         <nav>
           <ul>
-          <li>
+            <li>
               <Link to="/hub">hub</Link>
             </li>
             <li>
@@ -25,7 +26,7 @@ const Projects = () =>{
             </li>
           </ul>
         </nav>
-      </div>
+      </div></>
     );
   }
   

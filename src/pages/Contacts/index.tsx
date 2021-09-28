@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from '../../componentes/NavBar';
 
 
 const Contacts = () =>{
     return (
-      <div>
+      <><NavBar /><div>
         <h1>Contatos</h1>
         <nav>
           <ul>
-          <li>
+            <li>
               <Link to="/hub">hub</Link>
             </li>
             <li>
@@ -25,7 +26,7 @@ const Contacts = () =>{
             </li>
           </ul>
         </nav>
-      </div>
+      </div></>
     );
   }
   

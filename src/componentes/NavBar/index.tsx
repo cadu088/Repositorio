@@ -1,49 +1,46 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 
 
-function App() {
-  let texto = '';
+function NavBar() {
+
   let fig = '';
   const hora = new Date();
   const atual = hora.getHours();
   if (atual >= 12 && atual < 18) {
     fig = '🎑'
-    texto = 'Boa tarde!'
 } else if (atual >= 18) {
     fig = '🌕'
-    texto = 'Boa noite!'
 } else if (atual >= 0 && atual < 5) {
     fig = '🌄'
-    texto = 'Boa madrugada!'
 } else {
     fig = '☀'
-    texto = 'Bom dia!'
 }
 
   return (
-    <div className="App">
-      <header className="App-header">
-      <div className="tagNow">
-        <h1 className="tagNowText" title={texto} id="tagNowText">{fig}</h1>
-      </div>
-        <img src='https://media4.giphy.com/media/LQiaQkNlU73xZs8y5l/giphy.gif?cid=ecf05e479v740ahxmf20maqrurreli06c8kwq0skj1sk5fi8&rid=giphy.gif&ct=s' className="App-logo" alt="logo" />
-        <h1 className="titulo">{texto}</h1>
-        <p className="linha">Acomode-se e vamos juntos nessa viagem!</p>
-        <button type="button" title="Embarcar" className="go">🚀</button>        
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <p className="obs">vamos precisar desse foguete =)</p>
-      </header>
-    </div>
+   <div className="navBar">
+     <div className="link">
+       <div className="hub">
+       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/hub">Hub</Link>
+       </div>
+       <div className="linguagens">
+       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/linguagens">Linguagens</Link>
+       </div>
+       <div className="projetos">
+       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/projetos">Projetos</Link>
+       </div>
+       <div className="contato">
+       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/contato">Contato</Link>
+       </div>
+       <div className="fig">
+       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/">{fig}</Link>
+       </div>
+     </div>
+
+   </div>
   );
 }
 
-export default App;
+export default NavBar;

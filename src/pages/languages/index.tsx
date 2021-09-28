@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from '../../componentes/NavBar';
 
 
 const Languagens = () =>{
     return (
-      <div>
+      <><NavBar /><div>
         <h1>Linguagens</h1>
         <nav>
           <ul>
-          <li>
+            <li>
               <Link to="/hub">hub</Link>
             </li>
             <li>
@@ -25,7 +26,7 @@ const Languagens = () =>{
             </li>
           </ul>
         </nav>
-      </div>
+      </div></>
     );
   }
   
