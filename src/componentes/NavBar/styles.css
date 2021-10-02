@@ -11,6 +11,7 @@
     backdrop-filter: blur(4px);
     overflow-X: hidden;
     overflow: hidden;
+    margin-bottom: 80px;
 }
 
 .link {
@@ -51,4 +52,23 @@
     right: 10px;
     top: 5px;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 769px) {
+    .navBar {
+        margin-bottom: 10vmin;
+    }
+    .hub {
+        left: 20px;
+    }
+    .linguagens {
+        right: 220px;
+    }
+    .projetos {
+        right: 140px;
+    }
+    .contato {
+        right: 60px;
+        top: 15px;
+    }
 }

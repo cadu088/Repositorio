@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import FinishBar from '../../componentes/FinishBar';
 import NavBar from '../../componentes/NavBar';
+import UpTop from '../../componentes/UpTop';
 
 
 const Languagens = () =>{
@@ -26,7 +28,10 @@ const Languagens = () =>{
             </li>
           </ul>
         </nav>
-      </div></>
+      </div>
+      <UpTop/>
+      <FinishBar/>
+      </>
     );
   }
   

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+.FinishBar {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    left: 0px;
+    bottom: 0px;
+    background: radial-gradient(circle, #2a0944, #3b185f, #a12568, #3b185f);
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    overflow-X: hidden;
+    overflow: hidden;
+    margin-bottom: 10px;
+    animation: colorir 5s ease infinite;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: 300vw 300vw;
+}
+
+@keyframes colorir {
+    33.33% {
+        background-position: 100% 50%;
+    }
+    66.66% {
+        background-position: 200% 50%;
+    }
+    100% {
+        background-position: 350% 50%;
+    }
+}
+
+.link {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: right;
+    color: #FFFFFF !important;
+    backdrop-filter: blur(4px);
+}
+
+.FinishBar .hub {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.FinishBar .linguagens {
+    position: absolute;
+    right: 220px;
+    top: 15px;
+}
+
+.FinishBar .projetos {
+    position: absolute;
+    right: 120px;
+    top: 15px;
+}
+
+.FinishBar .contato {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .FinishBar {
+        height: 15vmin;
+        bottom: -10vmin;
+        background: radial-gradient(circle, black, black, black, black);
+    }
+    .FinishBar .hub {
+        left: 5%;
+        top: 10px;
+    }
+    .FinishBar .linguagens {
+        right: 30px;
+        top: 32px;
+    }
+    .FinishBar .projetos {
+        right: 90px;
+        top: 32px;
+    }
+    .FinishBar .contato {
+        position: absolute;
+        right: 160px;
+        top: 32px;
+    }
+}

@@ -2,3 +2,204 @@ body {
     background-color: black;
     color: #fff;
 }
+
+.card {
+    background-color: #9600bb54;
+    height: 50vmin;
+    width: 120vmin;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.barCard {
+    filter: blur();
+    background: radial-gradient(circle, #2a0944, #3b185f, #a12568, #3b185f);
+    height: 3vmin;
+    width: 120vmin;
+    margin: auto;
+    border-radius: 3px 3px 0 0;
+}
+
+.bolls {
+    display: flex;
+    height: 1.5vmin;
+    width: 100px;
+}
+
+.boll1,
+.boll2,
+.boll3 {
+    height: 1.5vmin;
+    width: 1.6vmin;
+    border-radius: 360px;
+    margin-top: 5px;
+}
+
+.boll1 {
+    background-color: #ff0000;
+    margin-left: 10px;
+}
+
+.boll2 {
+    background-color: #fbff00;
+    margin-left: 10px;
+}
+
+.boll3 {
+    background-color: #22ff00;
+    margin-left: 10px;
+}
+
+.text {
+    height: 40vmin;
+    width: 65vmin;
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+    font-size: 2.2vmin;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.photo {
+    background-image: url(./IMG_20201219_201333_397.jpg);
+    background-size: 25vmin 25vmin;
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 360px;
+    margin-left: 80vmin;
+    margin-top: -38vmin;
+}
+
+.name {
+    margin-top: 25vmin;
+    font-size: 3vmin;
+    width: 25vmin;
+    text-align: center;
+}
+
+.ocupa {
+    width: 25vmin;
+    text-align: center;
+    margin-top: -2vmin;
+    font-style: italic;
+    font-size: 2vmin;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        height: 60vmin;
+        width: 90vmin;
+    }
+    .barCard {
+        background-color: #9600bb54;
+        height: 4vmin;
+        width: 90vmin;
+        margin: auto;
+        border-radius: 3px 3px 0 0;
+    }
+    .boll1,
+    .boll2,
+    .boll3 {
+        height: 1.5vmin;
+        width: 1.6vmin;
+        border-radius: 360px;
+        margin-top: 1vmin;
+    }
+    .text {
+        height: 20vmin;
+        width: 80vmin;
+        margin-top: 3vmin;
+        margin-left: 5vmin;
+        font-size: small;
+    }
+    .photo {
+        background-size: 20vmin 20vmin;
+        height: 20vmin;
+        width: 20vmin;
+        border-radius: 360px;
+        margin-left: 5vmin;
+        margin-top: 5vmin;
+    }
+    .name {
+        margin-top: 10vmin;
+        margin-left: 25vmin;
+        font-size: 18px;
+        width: 10vmin;
+        text-align: left;
+    }
+    .ocupa {
+        width: 20vmin;
+        margin-top: 2vmin;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .card {
+        height: 80vmin;
+        width: 90vmin;
+    }
+    .barCard {
+        background-color: #9600bb54;
+        height: 3vmin;
+        width: 90vmin;
+        margin: auto;
+        border-radius: 3px 3px 0 0;
+    }
+    .text {
+        height: 40vmin;
+        width: 80vmin;
+        margin-top: 3vmin;
+        margin-left: 5vmin;
+        font-size: x-small;
+    }
+    .photo {
+        background-size: 20vmin 20vmin;
+        height: 20vmin;
+        width: 20vmin;
+        border-radius: 360px;
+        margin-left: 5vmin;
+        margin-top: 5vmin;
+    }
+    .name {
+        margin-top: 0vmin;
+        margin-left: 25vmin;
+        font-size: 18px;
+        width: 30vmin;
+        text-align: left;
+    }
+    .ocupa {
+        width: 20vmin;
+        font-size: x-small;
+        margin-top: 2vmin;
+    }
+}
+
+.areaDesenvol {
+    margin-top: 15vmin;
+    height: 50vmin;
+    background-color: #fff;
+    margin-bottom: 15vmin;
+    color: black;
+    font-size: 2vmin;
+}
+
+.text2 {
+    height: 50vmin;
+    width: 100vmin;
+    margin: auto;
+}
+
+span {
+    color: #9600bb;
+    ;
+}
+
+.tituloEp {}
+
+.titleDes {
+    height: 50vmin;
+    width: 50vmin;
+    text-align: justify;
+    margin-left: auto;
+    margin-top: auto;
+}

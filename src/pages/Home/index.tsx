@@ -14,10 +14,10 @@ function Home(this: any) {
     fig = '🌕'
     texto = 'Boa noite!'
 } else if (atual >= 0 && atual < 5) {
-    fig = '🌄'
+    fig = '🌌'
     texto = 'Boa madrugada!'
 } else {
-    fig = '☀'
+    fig = '🌄'
     texto = 'Bom dia!'
 }
 const history = useHistory();

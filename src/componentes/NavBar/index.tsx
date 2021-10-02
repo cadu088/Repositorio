@@ -14,27 +14,27 @@ function NavBar() {
 } else if (atual >= 18) {
     fig = '🌕'
 } else if (atual >= 0 && atual < 5) {
-    fig = '🌄'
+    fig = '🌌'
 } else {
-    fig = '☀'
+    fig = '🌄'
 }
 
   return (
    <div className="navBar">
      <div className="link">
-       <div className="hub">
+       <div className="hub" title="Página inicial">
        <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/hub">Hub</Link>
        </div>
-       <div className="linguagens">
+       <div className="linguagens" title="Linguagens">
        <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/linguagens">Linguagens</Link>
        </div>
-       <div className="projetos">
+       <div className="projetos" title="Meus projetos">
        <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/projetos">Projetos</Link>
        </div>
-       <div className="contato">
+       <div className="contato" title="Entre em contato">
        <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/contato">Contato</Link>
        </div>
-       <div className="fig">
+       <div className="fig" title="Reset">
        <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/">{fig}</Link>
        </div>
      </div>
