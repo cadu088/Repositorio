@@ -4,7 +4,7 @@ body {
 }
 
 .card {
-    background-color: #9600bb54;
+    background-color: #db49ff2c;
     height: 50vmin;
     width: 120vmin;
     margin: auto;
@@ -85,7 +85,7 @@ body {
     font-size: 2vmin;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .card {
         height: 60vmin;
         width: 90vmin;
@@ -110,7 +110,7 @@ body {
         width: 80vmin;
         margin-top: 3vmin;
         margin-left: 5vmin;
-        font-size: small;
+        font-size: 1.8vmin;
     }
     .photo {
         background-size: 20vmin 20vmin;
@@ -121,15 +121,15 @@ body {
         margin-top: 5vmin;
     }
     .name {
-        margin-top: 10vmin;
-        margin-left: 25vmin;
-        font-size: 18px;
+        margin-top: 9vmin;
+        margin-left: 22vmin;
+        font-size: 3vmin;
         width: 10vmin;
         text-align: left;
     }
     .ocupa {
         width: 20vmin;
-        margin-top: 2vmin;
+        margin-top: 2.5vmin;
     }
 }
 
@@ -175,6 +175,7 @@ body {
 }
 
 .areaDesenvol {
+    position: relative;
     margin-top: 15vmin;
     height: 50vmin;
     background-color: #fff;
@@ -194,12 +195,68 @@ span {
     ;
 }
 
-.tituloEp {}
+.tituloEp {
+    margin-left: 32%;
+    margin-top: 22vmin;
+    position: absolute;
+}
 
 .titleDes {
+    position: absolute;
     height: 50vmin;
     width: 50vmin;
     text-align: justify;
-    margin-left: auto;
-    margin-top: auto;
+    margin-left: 50vmin;
+    margin-top: 10vmin;
+}
+
+@media only screen and (max-width: 1024px) {
+    .tituloEp {
+        margin-left: 15%;
+        margin-top: 22vmin;
+        position: absolute;
+    }
+    .titleDes {
+        position: absolute;
+        height: 50vmin;
+        width: 50vmin;
+        text-align: justify;
+        margin-left: 40%;
+        margin-top: 10vmin;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .areaDesenvol {
+        position: relative;
+        margin-top: 15vmin;
+        height: 60vmin;
+        background-color: #fff;
+        margin-bottom: 5vmin;
+        color: black;
+        font-size: x-small;
+    }
+    .text2 {
+        height: 50vmin;
+        width: 100vmin;
+        margin: auto;
+    }
+    span {
+        color: #9600bb;
+        ;
+    }
+    .tituloEp {
+        height: 50vmin;
+        margin-left: 10vmin;
+        margin-top: 5vmin;
+        position: absolute;
+    }
+    .titleDes {
+        position: absolute;
+        height: 50vmin;
+        width: 80vmin;
+        text-align: justify;
+        margin-left: 10vmin;
+        margin-top: 15vmin;
+    }
 }

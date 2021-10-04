@@ -31,8 +31,8 @@ const Hub = () =>{
         </div>
       </div>
       <div className="areaDesenvol">
+      <h1 className="tituloEp">dev<span style={{ fontSize:'17px'}}>.exe</span></h1>
         <div className="text2">
-        <h1 className="tituloEp">desenvolvimento<span>.exe</span></h1>
         <p className="titleDes">Twenty One Pilots (estilizado como twenty one pilots ou twenty øne piløts)[1] é um duo americano originário de Columbus, Ohio. A banda foi formada em 2009 e é composta por Tyler Joseph e Josh Dun.[2] Eles lançaram dois álbuns independentes, Twenty One Pilots, em 2009, e Regional at Best, em 2011, antes de assinarem com a gravadora Fueled by Ramen, em 2012. Seu primeiro álbum com esta gravadora, Vessel, foi lançado em 2013.[3] O duo alcançou um grande sucesso com seu quarto álbum, Blurryface, lançado em 2015. O quinto álbum de estúdio do duo, Trench, foi lançado em 5 de outubro de 2018. </p>
         </div>
       </div>
