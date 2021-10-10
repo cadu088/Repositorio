@@ -1,8 +1,15 @@
 🚧 Atenção, esté projeto ainda está em construção. 🚧 
 
-# Pictures for project 🌍
+## Pictures for project 🌍
 
-![repositotio ft](https://user-images.githubusercontent.com/72260079/134792469-012b3b37-9d52-4b13-a7af-f7bbdaaff284.JPG)
+# Inicial 🚀
+![repositotio ft](https://user-images.githubusercontent.com/72260079/136681703-b7196985-e34a-4a46-b2b2-3e18d0d1f72f.JPG)
+
+# Hub 🏠
+![repositotio ft2](https://user-images.githubusercontent.com/72260079/136681707-9293e64f-cfb5-497f-ac75-bc1b357e7557.JPG)
+
+# Projetos 👨‍💻
+![repositotio ft3](https://user-images.githubusercontent.com/72260079/136681719-a98c9d2d-8158-4f25-9dd2-dc9395286ef5.JPG)
 
 
 
