@@ -1,14 +1,14 @@
 🚧 Atenção, esté projeto ainda está em construção. 🚧 
 
-## Pictures for project 🌍
+# Pictures for project 🌍
 
-# Inicial 🚀
+## Inicial 🚀
 ![repositotio ft](https://user-images.githubusercontent.com/72260079/136681703-b7196985-e34a-4a46-b2b2-3e18d0d1f72f.JPG)
 
-# Hub 🏠
+## Hub 🏠
 ![repositotio ft2](https://user-images.githubusercontent.com/72260079/136681707-9293e64f-cfb5-497f-ac75-bc1b357e7557.JPG)
 
-# Projetos 👨‍💻
+## Projetos 👨‍💻
 ![repositotio ft3](https://user-images.githubusercontent.com/72260079/136681719-a98c9d2d-8158-4f25-9dd2-dc9395286ef5.JPG)
 
 
