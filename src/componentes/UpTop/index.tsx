@@ -19,7 +19,7 @@ function acima() {
     return (
       <>
       <div className="trinaguloM" onClick={topo}>
-        <button className="top" onClick={topo} title="Top"></button>
+        <button className="top" onClick={topo} title="Subir"></button>
       </div>
   
     </>

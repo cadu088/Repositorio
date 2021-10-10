@@ -1,8 +1,14 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
 .background1 {
     margin-top: -80px;
     width: auto;
     height: 420px;
     background-image: url(../../img/fundoproj.jpg);
+    background-repeat: no-repeat;
     top: 47px;
     background-size: 100%;
     background-position: 100% -300px;
@@ -33,17 +39,23 @@
     color: black;
     height: 420px;
     margin-top: -20px;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, 0.678));
+}
+
+.background2-title {
+    margin: auto;
+    border-top: 10px solid transparent;
 }
 
 .background2-align {
     width: 60%;
     margin: auto;
+    max-width: 1200px;
     border-top: 100px solid transparent;
 }
 
 .img-align {
-    width: 27%;
+    width: 232px;
     font-size: 13px;
 }
 
@@ -84,4 +96,151 @@
     margin-left: auto;
     margin-top: -150px;
     font-size: 22px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .background1 {
+        margin-top: -80px;
+        width: auto;
+        height: 320px;
+        top: 47px;
+        background-size: 100%;
+        background-position: 100%;
+    }
+    .background1-align {
+        margin: auto;
+        width: 200px;
+        height: 120px;
+        margin-bottom: -50px;
+        border-top: 80px solid transparent;
+    }
+    .background2 {
+        background-color: #fff;
+        color: black;
+        height: 320px;
+        margin-top: -20px;
+        filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, 0.678));
+    }
+    .background2-align {
+        width: 70%;
+        margin: auto;
+        max-width: 1200px;
+        border-top: 80px solid transparent;
+    }
+    .background2-title {
+        margin: auto;
+    }
+    .img-align {
+        width: 180px;
+        font-size: 10px;
+    }
+    .img {
+        margin: auto;
+        width: 120px;
+        height: 120px;
+        border-radius: 360rem;
+        background-size: 100%;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .background2-text {
+        font-size: 12px;
+        width: 45%;
+        text-align: justify;
+        margin-left: auto;
+        margin-top: -135px;
+    }
+    .pesquisa-por-coordenadas {
+        height: 320px;
+    }
+    .pesquisa-por-coordenadas-align {
+        border-top: 70px solid transparent;
+        width: 70%;
+        margin: auto;
+    }
+    .pesquisa-por-coordenadas-text {
+        font-size: 12px;
+        width: 45%;
+        text-align: justify;
+    }
+    .pesquisa-por-coordenadas-title {
+        width: 250px;
+        margin-left: auto;
+        margin-top: -150px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .background1 {
+        margin-top: -80px;
+        width: auto;
+        height: 320px;
+        top: 47px;
+        background-size: 160%;
+        background-position: 50% -30px;
+    }
+    .background1-align {
+        margin: auto;
+        width: 200px;
+        height: 120px;
+        margin-bottom: -50px;
+        border-top: 100px solid transparent;
+    }
+    .background2 {
+        background-color: #fff;
+        color: black;
+        height: 420px;
+        margin-top: -20px;
+        filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, 0.678));
+    }
+    .background2-align {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        max-width: 600px;
+        border-top: 60px solid transparent;
+    }
+    .img-align {
+        margin: auto;
+        width: 180px;
+        font-size: 10px;
+    }
+    .img {
+        margin: auto;
+        width: 120px;
+        height: 120px;
+        border-radius: 360rem;
+        background-size: 100%;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .background2-text {
+        border-top: 10vmin solid transparent;
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+    .background2-title {
+        margin: auto;
+    }
+    .pesquisa-por-coordenadas {
+        height: 420px;
+    }
+    .pesquisa-por-coordenadas-align {
+        border-top: 80px solid transparent;
+        width: 80%;
+        margin: auto;
+    }
+    .pesquisa-por-coordenadas-text {
+        border-top: 100px solid transparent;
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
+    }
+    .pesquisa-por-coordenadas-title {
+        width: 300px;
+        margin: auto;
+        margin-top: -270px;
+        font-size: 16px;
+    }
 }

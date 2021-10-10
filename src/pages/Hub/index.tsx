@@ -7,7 +7,7 @@ import './styles.css';
 
 const Hub = () =>{
     return (
-      <body>
+      <body className='hubbody'>
       <><NavBar />
       <br/>
       <div className="card">

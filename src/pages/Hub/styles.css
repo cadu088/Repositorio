@@ -1,14 +1,18 @@
-body {
-    background-color: black;
+.hubbody {
+    background: linear-gradient(-45deg, #000000, #150050, #3F0071, #610094);
     color: #fff;
+    animation: colorir 10s ease infinite;
+    background-position: 50% 50%;
+    background-size: 300vw 300vw;
 }
 
 .card {
-    background-color: #db49ff2c;
+    filter: blur();
+    background-color: #ffffff18;
     height: 50vmin;
     width: 120vmin;
     margin: auto;
-    border-radius: 3px;
+    border-radius: 6px 6px 0 0;
 }
 
 .barCard {
@@ -17,7 +21,19 @@ body {
     height: 3vmin;
     width: 120vmin;
     margin: auto;
-    border-radius: 3px 3px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+@keyframes colorir {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .bolls {
@@ -62,6 +78,7 @@ body {
 
 .photo {
     background-image: url(./IMG_20201219_201333_397.jpg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
     background-size: 25vmin 25vmin;
     height: 25vmin;
     width: 25vmin;

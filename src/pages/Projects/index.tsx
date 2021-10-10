@@ -7,6 +7,7 @@ import './styles.css';
 
 const Projects = () =>{
     return (
+      <body>
       <><NavBar />
       <div className="background1"> 
         <div className="background1-align">
@@ -19,7 +20,7 @@ const Projects = () =>{
         <div className='background2-align'>
         <div className='img-align'>
           <div className='img'></div>
-          <h1>Sobre está página</h1>
+          <h1 className='background2-title'>Sobre está página</h1>
         </div>
         <p className='background2-text'>
         Aqui você vera sobre todos os meus projetos, desde projetos da faculdade até os que eu mesmo desenvolvi.<br></br>
@@ -32,10 +33,10 @@ Lembre-se, todos os projetos que estão aqui possuem o codigó postado em meu Gi
       <div className='pesquisa-por-coordenadas'>
          <div className='pesquisa-por-coordenadas-align'>
          <p className='pesquisa-por-coordenadas-text'>
-          O site possui o intuito de pesquisar qualquer lugar no mundo atravez das cordenadas de latitude e longitude, trazendo o resultado pelo google maps de localização pesquisada, mostrando abaixo da pesquisa o local com zoom. Podendo ser usado em aulas para mostrar como uma carta mapa funciona e sua aplicabilidade no dia a dia. 
+          O site possui o intuito de pesquisar qualquer lugar no mundo atravez das cordenadas de latitude e longitude, trazendo o resultado pelo google maps da localização pesquisada, mostrando abaixo da pesquisa o local com zoom. Podendo ser usado em aulas para mostrar como uma carta mapa funciona e sua aplicabilidade no dia a dia. 
           <br></br><br></br><br></br><span style={{ fontSize:'14px'}}>Estado: Offline</span>
           </p>
-         <h1 className="pesquisa-por-coordenadas-title"><span style={{ fontSize:'17px'}}>www.</span>pesquisa_por_coordenadas<span style={{ fontSize:'17px'}}>.com</span></h1>
+         <h1 className="pesquisa-por-coordenadas-title"><span className='span' style={{ fontSize:'17px'}}>www.</span>pesquisa_por_coordenadas<span className='span'  style={{ fontSize:'17px'}}>.com</span></h1>
         </div>
       </div>
       
@@ -43,6 +44,7 @@ Lembre-se, todos os projetos que estão aqui possuem o codigó postado em meu Gi
       <UpTop/>
       <FinishBar/>
       </>
+      </body>
     );
   }
   
