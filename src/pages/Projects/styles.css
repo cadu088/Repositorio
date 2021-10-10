@@ -1,0 +1,87 @@
+.background1 {
+    margin-top: -80px;
+    width: auto;
+    height: 420px;
+    background-image: url(../../img/fundoproj.jpg);
+    top: 47px;
+    background-size: 100%;
+    background-position: 100% -300px;
+}
+
+.background1-align {
+    margin-left: 45%;
+    width: 200px;
+    height: 120px;
+    margin-bottom: -50px;
+    border-top: 150px solid transparent;
+}
+
+.background1-title {
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin-bottom: -10px;
+}
+
+.background1-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.background2 {
+    background-color: #fff;
+    color: black;
+    height: 420px;
+    margin-top: -20px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.background2-align {
+    width: 60%;
+    margin: auto;
+    border-top: 100px solid transparent;
+}
+
+.img-align {
+    width: 27%;
+    font-size: 13px;
+}
+
+.img {
+    margin: auto;
+    background-image: url(../../img/boneco.gif);
+    width: 150px;
+    height: 150px;
+    border-radius: 360rem;
+    background-size: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.background2-text {
+    width: 40%;
+    text-align: justify;
+    margin-left: auto;
+    margin-top: -180px;
+}
+
+.pesquisa-por-coordenadas {
+    height: 420px;
+}
+
+.pesquisa-por-coordenadas-align {
+    border-top: 110px solid transparent;
+    width: 60%;
+    margin: auto;
+}
+
+.pesquisa-por-coordenadas-text {
+    width: 40%;
+    text-align: justify;
+}
+
+.pesquisa-por-coordenadas-title {
+    width: 400px;
+    margin-left: auto;
+    margin-top: -150px;
+    font-size: 22px;
+}
