@@ -23,19 +23,19 @@ function NavBar() {
    <div className="navBar">
      <div className="link">
        <div className="hub" title="Página inicial">
-       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/hub">Hub</Link>
+       <Link style={{ textDecoration: 'none', color: '#000'}}  to="/hub">Hub</Link>
        </div>
        <div className="linguagens" title="Linguagens">
-       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/linguagens">Linguagens</Link>
+       <Link style={{ textDecoration: 'none', color: '#000'}}  to="/linguagens">Linguagens</Link>
        </div>
        <div className="projetos" title="Meus projetos">
-       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/projetos">Projetos</Link>
+       <Link style={{ textDecoration: 'none', color: '#000'}}  to="/projetos">Projetos</Link>
        </div>
        <div className="contato" title="Entre em contato">
-       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/contato">Contato</Link>
+       <Link style={{ textDecoration: 'none', color: '#000'}}  to="/contato">Contato</Link>
        </div>
        <div className="fig" title="Reset">
-       <Link style={{ textDecoration: 'none', color: '#fff'}}  to="/">{fig}</Link>
+       <Link style={{ textDecoration: 'none', color: '#000'}}  to="/">{fig}</Link>
        </div>
      </div>
 

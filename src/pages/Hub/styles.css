@@ -7,6 +7,7 @@
 }
 
 .card {
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.329);
     filter: blur();
     background-color: #ffffff18;
     height: 50vmin;
@@ -192,11 +193,13 @@
 }
 
 .areaDesenvol {
+    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.329);
     position: relative;
     margin-top: 15vmin;
     height: 50vmin;
     background-color: #fff;
-    margin-bottom: 15vmin;
+    margin-bottom: 0vmin;
     color: black;
     font-size: 2vmin;
 }

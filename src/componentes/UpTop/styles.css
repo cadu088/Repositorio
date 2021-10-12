@@ -11,11 +11,13 @@
     background-image: url('./super-mario-brothers-147465_1280.webp');
     background-color: transparent;
     border-color: transparent;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .trinaguloM button:hover {
     transform: rotate(0deg);
     border-color: transparent;
+    filter: brightness(0.9);
 }
 
 .trinaguloM button:focus {

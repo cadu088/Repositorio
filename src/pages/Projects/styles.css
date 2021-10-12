@@ -39,7 +39,7 @@ body {
     color: black;
     height: 420px;
     margin-top: -20px;
-    filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, 0.678));
+    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .background2-title {
@@ -55,7 +55,7 @@ body {
 }
 
 .img-align {
-    width: 232px;
+    width: 240px;
     font-size: 13px;
 }
 
@@ -65,8 +65,9 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 360rem;
-    background-size: 100%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: 160%;
+    background-position: -45px -25px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) invert(100) hue-rotate(10deg);
 }
 
 .background2-text {
@@ -77,6 +78,7 @@ body {
 }
 
 .pesquisa-por-coordenadas {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
     height: 420px;
 }
 
@@ -98,7 +100,7 @@ body {
     font-size: 22px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1230px) {
     .background1 {
         margin-top: -80px;
         width: auto;
@@ -139,8 +141,9 @@ body {
         width: 120px;
         height: 120px;
         border-radius: 360rem;
-        background-size: 100%;
-        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        background-size: 160%;
+        background-position: -35px -25px;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) invert(100) hue-rotate(10deg);
     }
     .background2-text {
         font-size: 12px;
@@ -210,8 +213,9 @@ body {
         width: 120px;
         height: 120px;
         border-radius: 360rem;
-        background-size: 100%;
-        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+        background-size: 160%;
+        background-position: -35px -25px;
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) invert(100) hue-rotate(10deg);
     }
     .background2-text {
         border-top: 10vmin solid transparent;
@@ -243,4 +247,99 @@ body {
         margin-top: -270px;
         font-size: 16px;
     }
+}
+
+.pesquisa-por-coordenadas-imgs {
+    background-image: url(../../img/fundoproj.jpg);
+    height: 420px;
+}
+
+.pesquisa-por-coordenadas-imgs-align {
+    margin-left: 35px;
+    height: 330px;
+    border-top: 45px solid transparent;
+}
+
+.imgPortas1 {
+    background-image: url(../../img/pesquisa_por_coordenadas1.JPG);
+    background-size: 100%;
+    height: 330px;
+    width: 700px;
+    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.imgPortas2 {
+    margin-top: -330px;
+    margin-right: 35px;
+    background-image: url(../../img/pesquisa_por_coordenadas2.JPG);
+    background-size: 100%;
+    height: 330px;
+    width: 700px;
+    margin-left: auto;
+    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.imgPortas2:hover {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) invert(100) hue-rotate(10deg);
+}
+
+.imgPortas1:hover {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) invert(100) hue-rotate(10deg);
+}
+
+.prosacast {
+    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
+    height: 420px;
+}
+
+.prosacast-align {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    border-top: 80px solid transparent;
+}
+
+.prosacast-title {
+    line-height: 22px;
+    font-weight: 200;
+    margin: auto;
+    width: 20%;
+    font-size: 12px;
+}
+
+.prosacast-text1 {
+    width: 25%;
+    text-align: justify;
+}
+
+.prosacast-text2 {
+    width: 25%;
+    text-align: justify;
+    margin-left: auto;
+}
+
+.prosacast-video {
+    height: 420px;
+    background-color: #fff;
+}
+
+.prosacast-video-align {
+    border-top: 60px solid transparent;
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.prosacast-logo {
+    width: 300px;
+    height: 300px;
+    background-image: url(../../img/PROSATEC.png);
+    background-size: 100%;
+}
+
+.prosacast-video1 {
+    border-radius: 3px;
+    margin-left: auto;
+    border: 4px solid;
+    border-image: linear-gradient(227.91deg, #3b185f 0%, #a12568 100%) 1;
 }

@@ -5,17 +5,18 @@
     height: 47px;
     left: 0px;
     bottom: 0px;
-    background: radial-gradient(circle, #2a0944, #3b185f, #a12568, #3b185f);
+    background: #fdfdfd;
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     backdrop-filter: blur(4px);
     overflow-X: hidden;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     animation: colorir 5s ease infinite;
     overflow: hidden;
     background-position: 50% 50%;
     background-size: 300vw 300vw;
+    font-weight: 400;
 }
 
 @keyframes colorir {
@@ -35,7 +36,7 @@
     font-style: normal;
     font-size: 14px;
     text-align: right;
-    color: #FFFFFF !important;
+    color: #000000 !important;
     backdrop-filter: blur(4px);
 }
 
@@ -67,7 +68,7 @@
     .FinishBar {
         height: 15vmin;
         bottom: -10vmin;
-        background: radial-gradient(circle, black, black, black, black);
+        background: #fdfdfd;
     }
     .FinishBar .hub {
         left: 5%;
