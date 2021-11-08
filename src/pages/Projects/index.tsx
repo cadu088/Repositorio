@@ -55,7 +55,7 @@ Lembre-se, todos os projetos que estão aqui possuem o codigó postado em meu Gi
           <p className='prosacast-text1'>O projeto Prosa iniciou-se com o ProsaTec, um canal de ajuda para pessoas com maior dificuldade com tecnologia, 
           onde foi criado um canal do youtube, site e um grupo no WhatsApp com 
           as pessoas que precisavam de ajuda. A produção de conteudo ocorreu da maneira que ficasse 
-          mais didatica e possibilidasse o maior entendimento das tecnologias!
+          mais didatica e possibilitasse o maior entendimento das tecnologias!
           <br></br><br></br><br></br><span style={{ fontSize:'14px'}}>Status: Online</span></p>
           <p className='prosacast-text2'>
           Como continuação do ProsaTec o ProsaCast é um podcast de tecnologia, voltado para 

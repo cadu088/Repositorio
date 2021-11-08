@@ -250,6 +250,7 @@ body {
 }
 
 .pesquisa-por-coordenadas-imgs {
+    filter: drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
     background-image: url(../../img/fundoproj.jpg);
     height: 420px;
 }
@@ -288,7 +289,6 @@ body {
 }
 
 .prosacast {
-    filter: drop-shadow(4px -4px 4px rgba(0, 0, 0, 0.25));
     height: 420px;
 }
 

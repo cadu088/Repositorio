@@ -6,7 +6,7 @@
     left: 0px;
     bottom: 0px;
     background: #fdfdfd;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     box-sizing: border-box;
     backdrop-filter: blur(4px);
     overflow-X: hidden;
@@ -17,6 +17,8 @@
     background-position: 50% 50%;
     background-size: 300vw 300vw;
     font-weight: 400;
+    border: 1px solid;
+    border-image: linear-gradient(227.91deg, #3b185f 0%, #a12568 100%) 1;
 }
 
 @keyframes colorir {

@@ -1,0 +1,125 @@
+.containerCentral {
+    margin-top: -6rem;
+    background-color: aliceblue;
+    min-height: 95vh;
+    overflow: hidden;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.titleAba {
+    color: black;
+    font-size: 5rem;
+    width: 60vmin;
+    margin-top: 15%;
+    margin-left: 20vmin;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.192));
+}
+
+.cell1 {
+    transform: rotate(4deg);
+    background: radial-gradient(circle, #2a0944, #3b185f, #a12568, #3b185f);
+    height: 70vmin;
+    width: 39vmin;
+    margin-left: 30%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border: solid 0.4rem #492b68;
+    border-right: solid 0.2rem #492b68;
+    border-left: solid 0.2rem #492b68;
+    border-radius: 2rem;
+    filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+    background-size: 100vw 100vw;
+    animation: colorir 15s ease infinite;
+    background-position: 50% 50%;
+}
+
+@keyframes colorir {
+    33.33% {
+        background-position: 100% 50%;
+    }
+    66.66% {
+        background-position: 200% 50%;
+    }
+    100% {
+        background-position: 350% 50%;
+    }
+}
+
+.title {
+    margin: 0vmin 2rem 0rem 2rem;
+    padding-left: 1vmin;
+    background-color: #ffffff33;
+    border-radius: 0rem 0rem 0.5vmin 0.5vmin;
+    border-top: solid 0.2rem #492b68;
+    font-size: 2vmin;
+    height: 3vmin;
+}
+
+.selecionaContato {
+    margin: auto;
+    margin-top: 5vmin;
+    border-radius: 0.5vmin;
+    background-color: #ffffff33;
+    width: 15vmin;
+    height: 18vmin;
+    padding-top: 1rem;
+    filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+}
+
+.photoContato {
+    background-image: url(./IMG_20201219_201333_397.jpg);
+    background-size: 10vmin 10vmin;
+    height: 10vmin;
+    width: 10vmin;
+    margin: auto;
+    border-radius: 360px;
+}
+
+.nameContato {
+    margin-top: 9vmin;
+    font-size: 1.5vmin;
+    width: 10vmin;
+    text-align: center;
+}
+
+.contatosLista {
+    filter: drop-shadow(4px 4px 4px rgb(0, 0, 0));
+    border-radius: 0.25rem;
+    margin: 10vmin 2vmin 0 2vmin;
+    background-color: #ffffff25;
+    font-size: 2vmin;
+    padding: 1vmin;
+    height: 25vmin;
+    padding-top: 1vmin;
+}
+
+.aContatos {
+    color: #ffffff;
+    text-align: center;
+    height: 2rem;
+    text-decoration: none;
+}
+
+.pContatos:hover {
+    background-color: aliceblue;
+    color: black;
+    font-size: 2.2vmin;
+    border-radius: 4rem;
+}
+
+.pContatos {
+    /* background-color: #000000; 
+    */
+    border-bottom: solid 0.1vmin #492b68;
+    margin: 0.1rem;
+    height: 3.8vmin;
+    text-decoration: none;
+    padding-top: 0.8vmin;
+}
+
+.spantext {
+    background: -webkit-linear-gradient(#2a0944, #3b185f, #a12568, #3b185f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
