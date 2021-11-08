@@ -6,10 +6,13 @@
 ![repositotio ft](https://user-images.githubusercontent.com/72260079/136681703-b7196985-e34a-4a46-b2b2-3e18d0d1f72f.JPG)
 
 ## Hub 🏠
-![repositotio ft2](https://user-images.githubusercontent.com/72260079/136681707-9293e64f-cfb5-497f-ac75-bc1b357e7557.JPG)
+![image](https://user-images.githubusercontent.com/72260079/140746504-8301c96f-dbf0-40ca-a333-6112b2dc4b95.png)
 
 ## Projetos 👨‍💻
 ![repositotio ft3](https://user-images.githubusercontent.com/72260079/136681719-a98c9d2d-8158-4f25-9dd2-dc9395286ef5.JPG)
+
+## Contato 🧾
+![image](https://user-images.githubusercontent.com/72260079/140746314-3b0b9e69-5e3e-4ae8-9997-2e9f3e5eed27.png)
 
 
 
