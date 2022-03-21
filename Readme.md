@@ -1,22 +1,26 @@
-🚧 Atenção, esté projeto ainda está em construção. 🚧 
+🚧 Atenção, esté projeto ainda está em construção. 🚧
+:)
 
 # Pictures for project 🌍
 
 ## Inicial 🚀
+
 ![repositotio ft](https://user-images.githubusercontent.com/72260079/136681703-b7196985-e34a-4a46-b2b2-3e18d0d1f72f.JPG)
 
 ## Hub 🏠
+
 ![image](https://user-images.githubusercontent.com/72260079/140746504-8301c96f-dbf0-40ca-a333-6112b2dc4b95.png)
 
 ## Projetos 👨‍💻
+
 ![repositotio ft3](https://user-images.githubusercontent.com/72260079/136681719-a98c9d2d-8158-4f25-9dd2-dc9395286ef5.JPG)
 
 ## Contato 🧾
+
 ![image](https://user-images.githubusercontent.com/72260079/140746314-3b0b9e69-5e3e-4ae8-9997-2e9f3e5eed27.png)
 
-
-
 <<<<<<< HEAD
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -62,7 +66,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-Atenção, esté projeto ainda está em construção. teste 
->>>>>>> 
+# To learn React, check out the [React documentation](https://reactjs.org/).
+
+Atenção, esté projeto ainda está em construção. teste
+
+> > > > > > >
