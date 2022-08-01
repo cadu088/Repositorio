@@ -13,7 +13,7 @@ const Contacts = () =>{
         <h1 className='titleAba'>Entre em <span className='spantext'>contato</span></h1>
         <div className='cell1' > 
         <div>
-          <p className='title'>Contato selecionado:</p>
+          <p className='title' style={{textAlign: 'center'}}>Contato selecionado</p>
           <div className='selecionaContato' title='Carlos Rodrigues'>
           <div className="photoContato" >
           <img/>
